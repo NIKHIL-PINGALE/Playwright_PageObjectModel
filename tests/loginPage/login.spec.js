@@ -7,6 +7,4 @@ test('test', async ({ page }) => {
 
   await Login.gotoLoginPage()
   await Login.login('tomsmith', 'SuperSecretPassword!')
-
- 
 });
